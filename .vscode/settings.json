@@ -1,0 +1,13 @@
+{
+	"python.linting.pylintEnabled": true,
+	"python.linting.enabled": false,
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"driver": "SQLite",
+			"name": "Tute",
+			"database": "${workspaceFolder:Tut_1}/db.sqlite3"
+		}
+	],
+	"sqltools.useNodeRuntime": true
+}
